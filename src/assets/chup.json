@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Dhiraj",
+      "company": "Virtusa",
+      "description": "I am a good software developer"
+    },
+    {
+      "id": "2",
+      "name": "Kumar",
+      "company": "Blog Inc",
+      "description": "I am a pro writer"
+    },
+    {
+      "id": "3",
+      "name": "SpeaksAlot",
+      "company": "WorksAlot",
+      "description": "random creature"
+    },
+    {
+      "id": "4",
+      "name": "James",
+      "company": "Google",
+      "description": "I am a Goooogler"
+    },
+    {
+      "id": "5",
+      "name": "EatsALot",
+      "company": "Food Inc",
+      "description": "I can beat Elephant at eating"
+    }
+  ]
+}

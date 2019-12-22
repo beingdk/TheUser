@@ -1,0 +1,25 @@
+<div *ngIf="flag">
+<p>IdNum: <input #myId type="text" ></p>
+<p>Name: <input #myName type="text" ></p>
+<p>Company: <input #myCompany type="text" ></p>
+<p>Description: <input #myDescription type="text" ></p>
+<button (click) = 'OnSubmit(myId.value,myName.value,myCompany.value,myDescription.value)' >Submit</button>
+</div>
+<div>{{message}}</div>
+
+    <h3>List of Users</h3>
+    <div>
+        <tr>
+            <th>User ID</th>
+            <th>User Name</th>
+            <th>Company Name</th>
+            <th>Short Description</th>
+        </tr>
+            <tr *ngFor='let user of users' >
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.company}}</td>
+        <td>{{user.description}}</td>
+            </tr>
+    </div>
+
