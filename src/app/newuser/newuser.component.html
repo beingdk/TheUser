@@ -1,10 +1,13 @@
-<div *ngIf="flag">
-<p>IdNum: <input #myId type="text" ></p>
-<p>Name: <input #myName type="text" ></p>
-<p>Company: <input #myCompany type="text" ></p>
-<p>Description: <input #myDescription type="text" ></p>
-<button (click) = 'OnSubmit(myId.value,myName.value,myCompany.value,myDescription.value)' >Submit</button>
-</div>
+<form action="submit">
+        <div *ngIf="flag">
+                <p>IdNum: <input #myId type="text" ></p>
+                <p>Name: <input #myName type="text" ></p>
+                <p>Company: <input #myCompany type="text" ></p>
+                <p>Description: <input #myDescription type="text" ></p>
+                <button (click) = 'OnSubmit(myId.value,myName.value,myCompany.value,myDescription.value)' >Submit</button>
+                </div>
+</form>
+
 <div>{{message}}</div>
 
     <h3>List of Users</h3>
